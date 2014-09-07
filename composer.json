@@ -1,0 +1,25 @@
+{
+    "name": "bobalan/hello-world",
+    "version": "1.0.0",
+    "description": "First meeting with composer",
+    "type": "library",
+    "keywords": ["shit"],
+    "license": "CC",
+    "homepage": "http://github.com/bobalan/hello-world",
+    "authors": [
+        {
+            "name": "bobalan",
+            "email": "bobalan@abv.bg",
+            "homepage": "www.studiobalkandji.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "bobalan\\hello-world": "src/"
+        }
+    }
+}
