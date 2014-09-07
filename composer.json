@@ -1,11 +1,11 @@
 {
-    "name": "bobalan/hello-world",
+    "name": "bobalan/hello_world",
     "version": "1.0.0",
     "description": "First meeting with composer",
     "type": "library",
     "keywords": ["shit"],
     "license": "CC",
-    "homepage": "http://github.com/bobalan/hello-world",
+    "homepage": "http://github.com/bobalan/hello_world",
     "authors": [
         {
             "name": "bobalan",
@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-0": {
-            "bobalan\\hello-world": "src/"
+            "bobalan\\hello_world": "src/"
         }
     }
 }
